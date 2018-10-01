@@ -14,22 +14,51 @@
   .header h1, ul, li {
     display: inline;
   }
+
+  .header {
+    padding: 2.5% 2.5%;
+    box-sizing: border-box;
+  }
   .header ul li {
     list-style-type: none;
+    padding-left: 1%;
+    box-sizing: border-box;
   }
   .header ul li a {
     text-decoration: none;
     color: black;
   }
   @media all and (max-width: 700px) {
-    .header h1 {
-      margin: auto;
+    .header {
+      text-align: center;
     }
-
     .header ul {
       display: none;
     }
   }
+
+  main {
+    max-width: 1400px;
+    height: auto;
+    background-color: #d6d6c2;
+    padding: 2% 0;
+    box-sizing: border-box;
+  }
+
+  .gallery {
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .gallery span {
+    margin: 1% 1%;
+    box-sizing: border-box;
+  }
+
 </style>
 </head>
   <body>
