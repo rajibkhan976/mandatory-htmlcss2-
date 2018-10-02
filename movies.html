@@ -59,6 +59,16 @@
     box-sizing: border-box;
   }
 
+  .gallery img {
+    max-width: 150px;
+  }
+
+  @media all and (min-width: 900px) {
+    .gallery .lastImage img {
+      max-width: 450px;
+    }
+  }
+
 </style>
 </head>
   <body>
@@ -66,26 +76,26 @@
       <div class="header">
         <h1>Movie Streaming Services</h1>
         <ul>
-          <li><a href="#" target="_blank">Link A</a></li>
-          <li><a href="#" target="_blank">Link B</a></li>
-          <li><a href="#" target="_blank">Link C</a></li>
+          <li><a href="#">Link A</a></li>
+          <li><a href="#">Link B</a></li>
+          <li><a href="#">Link C</a></li>
         </ul>
       </div>
     </header>
     <main>
       <div class="gallery">
-        <span><img src="poster1.png" alt="" width="150px"></span>
-        <span><img src="poster2.png" alt="" width="150px"></span>
-        <span><img src="poster3.png" alt="" width="150px"></span>
-        <span><img src="poster4.png" alt="" width="150px"></span>
-        <span><img src="poster5.png" alt="" width="150px"></span>
-        <span><img src="poster6.png" alt="" width="150px"></span>
-        <span><img src="poster7.png" alt="" width="150px"></span>
-        <span><img src="poster8.png" alt="" width="150px"></span>
-        <span><img src="poster9.png" alt="" width="150px"></span>
-        <span><img src="poster10.png" alt="" width="150px"></span>
-        <span><img src="poster11.png" alt="" width="150px"></span>
-        <span><img src="poster12.png" alt="" width="150px"></span>
+        <span><img src="poster1.png" alt=""></span>
+        <span><img src="poster2.png" alt=""></span>
+        <span><img src="poster3.png" alt=""></span>
+        <span><img src="poster4.png" alt=""></span>
+        <span><img src="poster5.png" alt=""></span>
+        <span><img src="poster6.png" alt=""></span>
+        <span><img src="poster7.png" alt=""></span>
+        <span><img src="poster8.png" alt=""></span>
+        <span><img src="poster9.png" alt=""></span>
+        <span><img src="poster10.png" alt=""></span>
+        <span class="lastImage"><img src="poster11.png" alt=""></span>
+        <span class="lastImage"><img src="poster12.png" alt=""></span>
       </div>
     </main>
   </body>
